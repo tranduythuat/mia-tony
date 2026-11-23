@@ -23,7 +23,7 @@
             margin-top: 8%;
 
             img {
-                max-width: 90px;
+                max-width: 64px;
                 width: 100%;
                 height: auto;
             }
@@ -90,7 +90,7 @@
         @media (max-width: 500px) {
             .logo {
                 img {
-                    max-width: calc((90 / 500) * 100vw);
+                    max-width: calc((64 / 500) * 100vw);
                 }
             }
 

@@ -356,7 +356,7 @@ section {
   margin-top: 8%;
 }
 .hero .content .logo img {
-  max-width: 90px;
+  max-width: 64px;
   width: 100%;
   height: auto;
 }
@@ -406,7 +406,7 @@ section {
 }
 @media (max-width: 500px) {
   .hero .content .logo img {
-    max-width: 18vw;
+    max-width: 12.8vw;
   }
   .hero .content .couple-name {
     font-size: 8.4vw;
