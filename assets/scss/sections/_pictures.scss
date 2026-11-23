@@ -1,0 +1,109 @@
+@use "../variables" as *;
+@use "../mixins" as *;
+
+
+.pictures {
+    width: 100%;
+    margin-bottom: 15%;
+
+    .content {
+        width: 100%;
+        position: relative;
+        aspect-ratio: 500 / 785;
+
+        .flower {
+            max-width: 80px;
+            width: 100%;
+            height: auto;
+            position: absolute;
+        }
+
+        .flower_left {
+            top: 20%;
+            left: 4%;
+            z-index: 8;
+        }
+
+        .flower_right {
+            top: 24%;
+            left: 41%;
+            z-index: 5;
+            transform: scaleX(-1);
+        }
+
+        .flower_pic04 {
+            max-width: 91px;
+            width: 100%;
+            height: auto;
+            position: absolute;
+            bottom: 2%;
+            left: 43%;
+            z-index: 7;
+        }
+
+        .picture {
+            position: absolute;
+            width: 100%;
+            aspect-ratio: 5 / 7;
+            max-width: 190px;
+            border-top: 10px solid #efefe6ff;
+            border-left: 10px solid #efefe6ff;
+            border-right: 10px solid #efefe6ff;
+            border-bottom: 40px solid #efefe6ff;
+            box-shadow: 5px 5px 8px 0px rgba(0, 0, 0, 0.20);
+            ;
+        }
+
+        .picture01 {
+            background: url('../../assets/images/pictures/1.jpeg') no-repeat center / cover;
+            top: 5%;
+            left: 12%;
+            transform: rotate(3deg);
+        }
+
+        .picture02 {
+            background: url('../../assets/images/pictures/2.jpeg') no-repeat center / cover;
+            top: 7%;
+            left: 50%;
+            z-index: 4;
+            transform: rotate(-5deg);
+        }
+
+        .picture03 {
+            background: url('../../assets/images/pictures/3.jpeg') no-repeat center / cover;
+            top: 34%;
+            left: 30%;
+            z-index: 6;
+            transform: rotate(1deg);
+        }
+
+        .picture04 {
+            background: url('../../assets/images/pictures/4.jpg') no-repeat center / cover;
+            top: 62%;
+            left: 10%;
+            z-index: 7;
+            transform: rotate(-7deg);
+        }
+
+        .picture05 {
+            background: url('../../assets/images/pictures/5.jpg') no-repeat center / cover;
+            top: 60%;
+            left: 53%;
+            transform: rotate(6deg);
+        }
+
+        @media (max-width: 500px) {
+            .flower {
+                max-width: calc((80 / 500) * 100vw);
+            }
+
+            .flower_pic04 {
+                max-width: calc((91 / 500) * 100vw);
+            }
+
+            .picture {
+                max-width: calc((190 / 500) * 100vw);
+            }
+        }
+    }
+}

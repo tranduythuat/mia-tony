@@ -1,0 +1,187 @@
+@use "../variables" as *;
+@use "../mixins" as *;
+
+.invite {
+    width: 100%;
+
+    .content {
+        width: 100%;
+        background: url('../../assets/images/IMG_3962.GIF') no-repeat 50% 8% / 100%;
+        font-size: 13.5px;
+        padding-top: 18%;
+        padding-bottom: 20%;
+
+        .welcome {
+            font-size: 13.5px;
+            color: #503b28ff;
+            margin-bottom: 2%;
+        }
+
+        // .couple-intro {
+        //     display: flex;
+        //     justify-content: center;
+        //     align-items: center;
+        //     gap: 10%;
+        //     margin: 10% 0;
+
+        //     .img-box {
+        //         max-width: 180px;
+        //         width: 100%;
+        //         aspect-ratio: 5 / 8;
+        //         border-radius: 5px;
+
+        //         &.bride {
+        //             background: url('https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/ngan-duc/bride.webp') no-repeat 50% 50% / cover;
+        //         }
+
+        //         &.groom {
+        //             background: url('https://pub-d341ea7ec201435598469d75d8c4a056.r2.dev/ngan-duc/husband.webp') no-repeat 50% 50% / cover;
+        //         }
+        //     }
+        // }
+
+        .parents-info {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10%;
+            margin-bottom: 8%;
+
+            .label {
+                font-style: italic;
+                margin-bottom: 4%;
+            }
+
+            .name {
+                font-weight: bold;
+                line-height: 1.5;
+            }
+        }
+
+        .couple-name {
+            font-family: $font-DK-Cool-Crayonr;
+            color: #646531ff;
+            font-size: 52px;
+            margin-bottom: 5%;
+        }
+
+        .couple-image {
+            perspective: 1000px;
+            margin-bottom: 16%;
+            position: relative;
+            // left: -3%;
+            // background-color: $secondary-color;
+            margin: 0 auto;
+            margin-bottom: 6%;
+
+            img {
+                max-width: 398px;
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .time {
+            font-size: 26px;
+            color: #503b28ff;
+            margin-bottom: 3%;
+        }
+
+        .location {
+            font-size: 32px;
+            font-family: $font-DK-Cool-Crayonr;
+            color: #646531ff;
+            margin: 5% 0 2%;
+
+            i {
+                font-family: $font-lora;
+                font-size: 22px;
+            }
+        }
+
+        .hall {
+            font-size: 15px;
+        }
+
+        .address {
+            color: #503b28ff;
+        }
+
+        .en-address {
+            color: #503b28ff;
+            font-size: 11px;
+        }
+
+        .map-img {
+            // background-color: $secondary-color;
+            margin: 0% auto;
+
+            img {
+                max-width: 454px;
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .map-btn {
+            font-size: 16px;
+            font-weight: 600;
+            display: block;
+            text-decoration: none;
+            color: #fff;
+            background-color: $title-color;
+            max-width: 158px;
+            width: 100%;
+            aspect-ratio: 158 / 30;
+            font-family: $font-gilroy;
+            @include flex-center;
+            border-radius: 10px;
+            margin: auto;
+            text-transform: uppercase;
+        }
+
+
+        @media (max-width: 500px) {
+            font-size: calc((13.5 / 500) * 100vw);
+
+            .welcome {
+                font-size: calc((13.5 / 500) * 100vw);
+            }
+
+            .couple-intro {
+                .img-box {
+                    max-width: calc((180 / 500) * 100vw);
+                }
+            }
+
+            .couple-name {
+                font-size: calc((33 / 500) * 100vw);
+            }
+
+            .couple-image {
+                img {
+                    max-width: calc((362 / 500) * 100vw);
+                }
+            }
+
+            .time {
+                font-size: calc((26 / 500) * 100vw);
+            }
+
+            .location {
+                font-size: calc((42 / 500) * 100vw);
+            }
+
+            .map-img {
+                img {
+                    max-width: calc((454 / 500) * 100vw);
+                }
+            }
+
+            .map-btn {
+                font-size: calc((16 / 500) * 100vw);
+                max-width: calc((158 / 500) * 100vw);
+            }
+        }
+    }
+}
