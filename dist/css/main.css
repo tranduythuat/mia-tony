@@ -504,7 +504,7 @@ section {
   margin: 5% auto;
 }
 .invite .content .map-img img {
-  max-width: 454px;
+  max-width: 382px;
   width: 100%;
   height: auto;
 }
@@ -552,7 +552,7 @@ section {
     font-size: 4.4vw;
   }
   .invite .content .map-img img {
-    max-width: 90.8vw;
+    max-width: 76.4vw;
   }
   .invite .content .map-btn {
     font-size: 3.2vw;
