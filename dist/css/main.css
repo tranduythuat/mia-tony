@@ -409,6 +409,10 @@ section {
     max-width: 12.8vw;
   }
   .hero .content .couple-name {
+    font-size: 11.2vw;
+    max-width: 32vw;
+  }
+  .hero .content .couple-name span.and {
     font-size: 8.4vw;
   }
   .hero .content .date .time {
@@ -533,16 +537,19 @@ section {
     max-width: 36vw;
   }
   .invite .content .couple-name {
-    font-size: 6.6vw;
+    font-size: 10.4vw;
   }
   .invite .content .couple-image img {
-    max-width: 72.4vw;
+    max-width: 79.6vw;
   }
   .invite .content .time {
     font-size: 5.2vw;
   }
   .invite .content .location {
-    font-size: 8.4vw;
+    font-size: 6.4vw;
+  }
+  .invite .content .location i {
+    font-size: 4.4vw;
   }
   .invite .content .map-img img {
     max-width: 90.8vw;
@@ -663,6 +670,9 @@ section {
   }
   .timeline .items .item .time {
     font-size: 2.4vw;
+  }
+  .timeline .items .item .time i {
+    font-size: 2.2vw;
   }
   .timeline .items .item:nth-of-type(2) .icon img {
     max-width: 7.6vw;
@@ -933,7 +943,7 @@ section {
   transition: border-color 0.3s ease;
   color: #503b28;
   background-color: #d9d7c3;
-  font-size: 13px;
+  font-size: 12px;
 }
 .rsvp .content .rsvp-form .form-group input[type=text]:focus,
 .rsvp .content .rsvp-form .form-group input[type=number]:focus,
@@ -1014,11 +1024,14 @@ section {
   .rsvp .content .rsvp-form .header .title {
     font-size: 7.8vw;
   }
+  .rsvp .content .rsvp-form .header .title i {
+    font-size: 4.4vw;
+  }
   .rsvp .content .rsvp-form .header .en-title {
     font-size: 3.6vw;
   }
   .rsvp .content .rsvp-form .header .subtitle {
-    font-size: 3vw;
+    font-size: 2.4vw;
   }
   .rsvp .content .rsvp-form .header .en-subtitle {
     font-size: 2vw;
@@ -1032,13 +1045,13 @@ section {
   .rsvp .content .rsvp-form .form-group input[type=text],
   .rsvp .content .rsvp-form .form-group input[type=number],
   .rsvp .content .rsvp-form .form-group textarea {
-    font-size: 3.2vw;
+    font-size: 2.4vw;
   }
   .rsvp .content .rsvp-form .form-group .subtitle {
     font-size: 2.4vw;
   }
   .rsvp .content .rsvp-form .form-group.guest-number .label {
-    font-size: 2.6vw;
+    font-size: 2vw;
   }
   .rsvp .content .rsvp-form .submit-btn {
     font-size: 2.6vw;

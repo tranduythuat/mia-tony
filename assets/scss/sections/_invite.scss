@@ -155,12 +155,12 @@
             }
 
             .couple-name {
-                font-size: calc((33 / 500) * 100vw);
+                font-size: calc((52 / 500) * 100vw);
             }
 
             .couple-image {
                 img {
-                    max-width: calc((362 / 500) * 100vw);
+                    max-width: calc((398 / 500) * 100vw);
                 }
             }
 
@@ -169,7 +169,11 @@
             }
 
             .location {
-                font-size: calc((42 / 500) * 100vw);
+                font-size: calc((32 / 500) * 100vw);
+
+                i {
+                    font-size: calc((22 / 500) * 100vw);
+                }
             }
 
             .map-img {

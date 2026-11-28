@@ -148,6 +148,10 @@
 
                 .time {
                     font-size: calc((12 / 500) * 100vw);
+
+                    i {
+                        font-size: calc((11 / 500) * 100vw);
+                    }
                 }
 
                 &:nth-of-type(2) .icon img {

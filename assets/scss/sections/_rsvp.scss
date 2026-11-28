@@ -122,7 +122,7 @@
                     transition: border-color 0.3s ease;
                     color: $text-color;
                     background-color: $secondary-color;
-                    font-size: 13px;
+                    font-size: 12px;
                     // font-weight: 600;
                 }
 
@@ -223,6 +223,10 @@
                 .header {
                     .title {
                         font-size: calc((39 / 500) * 100vw);
+
+                        i {
+                            font-size: calc((22 / 500) * 100vw);
+                        }
                     }
 
                     .en-title {
@@ -230,7 +234,7 @@
                     }
 
                     .subtitle {
-                        font-size: calc((15 / 500) * 100vw);
+                        font-size: calc((12 / 500) * 100vw);
                     }
 
                     .en-subtitle {
@@ -250,7 +254,7 @@
                     input[type="text"],
                     input[type="number"],
                     textarea {
-                        font-size: calc((16 / 500) * 100vw);
+                        font-size: calc((12 / 500) * 100vw);
                     }
 
                     .subtitle {
@@ -259,7 +263,7 @@
 
                     &.guest-number {
                         .label {
-                            font-size: calc((13 / 500) * 100vw);
+                            font-size: calc((10 / 500) * 100vw);
                         }
                     }
                 }

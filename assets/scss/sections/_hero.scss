@@ -95,7 +95,14 @@
             }
 
             .couple-name {
-                font-size: calc((42 / 500) * 100vw);
+                font-size: calc((56 / 500) * 100vw);
+                max-width: calc((160 / 500) * 100vw);
+
+                span {
+                    &.and {
+                        font-size: calc((42 / 500) * 100vw);
+                    }
+                }
             }
 
             .date {
